@@ -36,7 +36,7 @@ export default function About() {
                   Our domain names are specifically designed to support Web3
                   applications, branding and functionality, making it easy for
                   our clients to build and deploy their own Web3 projects.
-                  Whether you're an individual or organization looking to launch
+                  Whether you&apos;re an individual or organization looking to launch
                   or build a web3 application, we have the expertise and
                   resources to help you succeed.{" "}
                 </p>

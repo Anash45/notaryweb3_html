@@ -20,18 +20,18 @@ export default function Terms() {
                 <p>
                   These Terms of Use constitute a legally binding agreement made
                   between you, whether personally or on behalf of an entity
-                  ("you", "your", "customer", "customers") and Notary Ventures,
+                  (&quot;you&quot;, &quot;your&quot;, &quot;customer&quot;, &quot;customers&quot;) and Notary Ventures,
                   LLC d.b.a. DomainSales.store, along with its agents, assigns,
-                  and affiliates ("Company", "we", "us", or "our"), concerning
+                  and affiliates (&quot;Company&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;), concerning
                   your access to and use of the domainsales.store or
                   notaryweb3.com websites as well as any other media form, media
                   channel, mobile website or mobile application related, linked,
                   or otherwise connected thereto which is controlled by the
-                  Company (collectively, the "Site"). However, please note that
+                  Company (collectively, the &quot;Site&quot;). However, please note that
                   blockchain networks, even if Notary Venture sells Domain Names
                   or other records to them, are controlled by third parties (who
                   may be distributed networks of independent computers), and are
-                  therefore not included in the definition of the "Site". You
+                  therefore not included in the definition of the &quot;Site&quot;. You
                   agree that by accessing the Site, you have read, understood,
                   and agreed to be bound by all of these Terms of Use. IF YOU DO
                   NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE
@@ -44,7 +44,7 @@ export default function Terms() {
                   incorporated herein by reference. We reserve the right, in our
                   sole discretion, to make changes or modifications to these
                   Terms of Use at any time and for any reason. We will alert you
-                  about any changes by updating the "Last updated" date of these
+                  about any changes by updating the &quot;Last updated&quot; date of these
                   Terms of Use, and you waive any right to receive specific
                   notice of each such change. It is your responsibility to
                   periodically review these Terms of Use to stay informed of
@@ -77,14 +77,14 @@ export default function Terms() {
                   Unless otherwise indicated, the Site is our proprietary
                   property and all source code, databases, functionality,
                   software, website designs, audio, video, text, photographs,
-                  and graphics on the Site (collectively, the "Content") and the
+                  and graphics on the Site (collectively, the &quot;Content&quot;) and the
                   trademarks, service marks, and logos contained therein (the
-                  "Marks") are owned or controlled by us or licensed to us, and
+                  &quot;Marks&quot;) are owned or controlled by us or licensed to us, and
                   are protected by copyright and trademark laws and various
                   other intellectual property rights and unfair competition laws
                   of the United States, foreign jurisdictions, and international
                   conventions. The Content and the Marks are provided on the
-                  Site "AS IS" for your information and personal use only.
+                  Site &quot;AS IS&quot; for your information and personal use only.
                   Except as expressly provided in these Terms of Use, no part of
                   the Site and no Content or Marks may be copied, reproduced,
                   aggregated, republished, uploaded, posted, publicly displayed,
@@ -200,7 +200,7 @@ export default function Terms() {
                   Domain fees from new domain name registrations may be
                   refundable, at the sole discretion of DomainSales.store, in
                   the event of issues arising from actual or prospective
-                  trademark infringement or other abuses, "phishing" (the
+                  trademark infringement or other abuses, &quot;phishing&quot; (the
                   fraudulent practice of sending emails purporting to be from
                   reputable companies or individuals in order to induce
                   individuals to reveal personal information), technical
@@ -254,7 +254,7 @@ export default function Terms() {
                   circumstances. Domains purchased with promotion credits cannot
                   be exchanged for alternative or equivalent products, even when
                   a typo is made. <br />
-                  Any additional fees paid for preorders, "sunrise"
+                  Any additional fees paid for preorders, &quot;sunrise&quot;
                   registration, or any other early access programs, spent domain
                   minting and twitter verification credits are non-refundable.{" "}
                   <br />
@@ -429,14 +429,14 @@ export default function Terms() {
                     any Content.
                   </li>
                   <li>
-                    Copy or adapt the Site's software, including but not limited
+                    Copy or adapt the Site&apos;s software, including but not limited
                     to Flash, PHP, HTML, JavaScript, or other code.
                   </li>
                   <li>
                     Upload or transmit (or attempt to upload or to transmit)
                     viruses, Trojan horses, blockchain mining programs, or other
                     material, including spamming (continuous posting of
-                    repetitive text), that interferes with any party's
+                    repetitive text), that interferes with any party&apos;s
                     uninterrupted use and enjoyment of the Site or modifies,
                     impairs, disrupts, alters, or interferes with the use,
                     features, functions, operation, or maintenance of the Site.
@@ -445,10 +445,10 @@ export default function Terms() {
                     Upload or transmit (or attempt to upload or to transmit) any
                     material that acts as a passive or active information
                     collection or transmission mechanism, including without
-                    limitation, clear graphics interchange formats ("gifs"), 1×1
+                    limitation, clear graphics interchange formats (&quot;gifs&quot;), 1×1
                     pixels, web bugs, cookies, or other similar devices
-                    (sometimes referred to as "spyware" or "passive collection
-                    mechanisms" or "pcms").
+                    (sometimes referred to as &quot;spyware&quot; or &quot;passive collection
+                    mechanisms&quot; or &quot;pcms&quot;).
                   </li>
                   <li>
                     Except as may be the result of standard search engine or
@@ -526,7 +526,7 @@ export default function Terms() {
                 <p>
                   As part of the functionality of the Site, you may link your
                   account with online accounts you have with third party service
-                  providers (each such account, a "Third Party Account") by
+                  providers (each such account, a &quot;Third Party Account&quot;) by
                   either: (1) providing your Third Party Account login
                   information through the Site; or (2) allowing us to access
                   your Third Party Account, as is permitted under the applicable
@@ -542,7 +542,7 @@ export default function Terms() {
                   Party Accounts, you understand that (1) we may access, make
                   available, and store (if applicable) any content that you have
                   provided to and stored in your Third Party Account (the
-                  "Social Network Content") so that it is available on and
+                  &quot;Social Network Content&quot;) so that it is available on and
                   through the Site via your account, including without
                   limitation any friend lists and (2) we may submit to and
                   receive from your Third Party Account additional information
@@ -582,7 +582,7 @@ export default function Terms() {
                 <p>
                   You acknowledge and agree that any questions, comments,
                   suggestions, ideas, feedback, or other information regarding
-                  the Site or the Marketplace Offerings ("Submissions") provided
+                  the Site or the Marketplace Offerings (&quot;Submissions&quot;) provided
                   by you to us are nonconfidential and shall become our sole
                   property. We shall own exclusive rights, including all
                   intellectual property rights, and shall be entitled to the
@@ -601,11 +601,11 @@ export default function Terms() {
                 </h6>
                 <p>
                   The Site may contain (or you may be sent via the Site or the
-                  Marketplace Offerings) links to other websites ("Third Party
-                  Websites") as well as articles, photographs, text, graphics,
+                  Marketplace Offerings) links to other websites (&quot;Third Party
+                  Websites&quot;) as well as articles, photographs, text, graphics,
                   pictures, designs, music, sound, video, information,
                   applications, software, and other content or items belonging
-                  to or originating from third parties ("Third Party Content").
+                  to or originating from third parties (&quot;Third Party Content&quot;).
                   Such Third Party Websites and Third Party Content are not
                   investigated, monitored, or checked for accuracy,
                   appropriateness, or completeness by us, and we are not
@@ -693,14 +693,14 @@ export default function Terms() {
                   disclosure that differ from applicable laws in the United
                   States, then you will be expressly-requested permission to
                   transfer your data to the United States and us specifically as
-                  a "controller" (or equivalent), or, to the extent
+                  a &quot;controller&quot; (or equivalent), or, to the extent
                   legally-enforceable, through your continued use of the Site,
                   you are thereby transferring your data to the United States,
                   and you expressly consent to have your data transferred to and
                   processed in the United States and to us in specific. Further,
                   we do not knowingly accept, request, or solicit information
                   from children or knowingly market to children. Therefore, in
-                  accordance with the U.S. Children's Online Privacy Protection
+                  accordance with the U.S. Children&apos;s Online Privacy Protection
                   Act, if we receive actual knowledge that anyone under the age
                   of 13 has provided personal information to us without the
                   requisite and verifiable parental consent, we will delete that
@@ -721,14 +721,14 @@ export default function Terms() {
                   disclosure that differ from applicable laws in the United
                   States, then you will be expressly-requested permission to
                   transfer your data to the United States and us specifically as
-                  a "controller" (or equivalent), or, to the extent
+                  a &quot;controller&quot; (or equivalent), or, to the extent
                   legally-enforceable, through your continued use of the Site,
                   you are thereby transferring your data to the United States,
                   and you expressly consent to have your data transferred to and
                   processed in the United States and to us in specific. Further,
                   we do not knowingly accept, request, or solicit information
                   from children or knowingly market to children. Therefore, in
-                  accordance with the U.S. Children's Online Privacy Protection
+                  accordance with the U.S. Children&apos;s Online Privacy Protection
                   Act, if we receive actual knowledge that anyone under the age
                   of 13 has provided personal information to us without the
                   requisite and verifiable parental consent, we will delete that
@@ -787,9 +787,9 @@ export default function Terms() {
                   {" "}
                   To expedite resolution and control the cost of any dispute,
                   controversy, or claim related to these Terms of Use (each a
-                  "Dispute" and collectively, the "Disputes") brought by either
-                  you or us (individually, a "Party" and collectively, the
-                  "Parties"), the Parties agree to first attempt to negotiate
+                  &quot;Dispute&quot; and collectively, the &quot;Disputes&quot;) brought by either
+                  you or us (individually, a &quot;Party&quot; and collectively, the
+                  &quot;Parties&quot;), the Parties agree to first attempt to negotiate
                   any Dispute (except those Disputes expressly provided below)
                   informally for at least thirty (30) days before initiating
                   arbitration. Such informal negotiations commence upon written
@@ -805,9 +805,9 @@ export default function Terms() {
                   THIS PROVISION, YOU WOULD HAVE THE RIGHT TO SUE IN COURT AND
                   HAVE A JURY TRIAL. The arbitration shall be commenced and
                   conducted under the Commercial Arbitration Rules of the
-                  American Arbitration Association ("AAA") and, where
-                  appropriate, the AAA's Supplementary Procedures for Consumer
-                  Related Disputes ("AAA Consumer Rules"), both of which are
+                  American Arbitration Association (&quot;AAA&quot;) and, where
+                  appropriate, the AAA&apos;s Supplementary Procedures for Consumer
+                  Related Disputes (&quot;AAA Consumer Rules&quot;), both of which are
                   available at the AAA website www.adr.org. Your arbitration
                   fees and your share of arbitrator compensation shall be
                   governed by the AAA Consumer Rules and, where appropriate,
@@ -897,7 +897,7 @@ export default function Terms() {
                   IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
                   PARTICULAR PURPOSE, AND NONINFRINGEMENT. WE MAKE NO WARRANTIES
                   OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE
-                  SITE'S CONTENT OR THE CONTENT OF ANY WEBSITES LINKED TO THIS
+                  SITE&apos;S CONTENT OR THE CONTENT OF ANY WEBSITES LINKED TO THIS
                   SITE AND WE WILL ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY
                   (1) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT AND
                   MATERIALS, (2) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY
@@ -950,7 +950,7 @@ export default function Terms() {
                   including our subsidiaries, affiliates, and all of our
                   respective officers, agents, partners, and employees, from and
                   against any loss, damage, liability, claim, or demand,
-                  including reasonable attorneys' fees and expenses, made by any
+                  including reasonable attorneys&apos; fees and expenses, made by any
                   third party due to or arising out of: (1) use of the Site; (2)
                   breach of these Terms of Use; (3) any breach of your
                   representations and warranties set forth in these Terms of
@@ -1051,7 +1051,7 @@ export default function Terms() {
                   The terms of the Protected Brands Policy include but are not
                   limited to granting a limited, non-exclusive, royalty-free,
                   fully paid up, worldwide license to use, reproduce, publish,
-                  and distribute the claiming company's name, primary
+                  and distribute the claiming company&apos;s name, primary
                   trademarks, and logos for publicity purposes to
                   DomainSales.store as a condition of claiming a free domain
                   pursuant to the policy.{" "}

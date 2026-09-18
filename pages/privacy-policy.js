@@ -18,34 +18,34 @@ export default function PrivacyPolicy() {
                 <p className="fw-semibold">Last Updated: 04/01/2023</p>
                 <h5 className="text-center py-3"> AGREEMENT TO TERMS </h5>
                 <p>
-                  This privacy policy (“Policy") describes how Notary Ventures,
+                  This privacy policy (“Policy&quot;) describes how Notary Ventures,
                   LLC d.b.a DomainSales.Store and its related companies
-                  (“Company") collect, use and share personal information of
+                  (“Company&quot;) collect, use and share personal information of
                   users of this website, www.DomainSales.Store,
                   www.NotaryWeb3.com as well as any other media form, media
                   channel, mobile website or mobile application related, linked,
                   or otherwise connected thereto which is controlled by the
-                  Company (the “Site"), and any related features, functions,
+                  Company (the “Site&quot;), and any related features, functions,
                   products, services, materials or other information made
-                  available through this website and the Company's APIs
-                  (collectively, the “Services"). This Policy also applies to
+                  available through this website and the Company&apos;s APIs
+                  (collectively, the “Services&quot;). This Policy also applies to
                   any of our other websites that link to this Policy. This
                   Policy does not apply to websites that link to different
                   statements.
                 </p>
                 <h6 className="fw-semibold mt-5 mb-3">WHAT WE COLLECT</h6>
                 <p>
-                  This privacy policy (“Policy") describes how Notary Ventures,
+                  This privacy policy (“Policy&quot;) describes how Notary Ventures,
                   LLC d.b.a DomainSales.Store and its related companies
-                  (“Company") collect, use and share personal information of
+                  (“Company&quot;) collect, use and share personal information of
                   users of this website, www.DomainSales.Store,
                   www.NotaryWeb3.com as well as any other media form, media
                   channel, mobile website or mobile application related, linked,
                   or otherwise connected thereto which is controlled by the
-                  Company (the “Site"), and any related features, functions,
+                  Company (the “Site&quot;), and any related features, functions,
                   products, services, materials or other information made
-                  available through this website and the Company's APIs
-                  (collectively, the “Services"). This Policy also applies to
+                  available through this website and the Company&apos;s APIs
+                  (collectively, the “Services&quot;). This Policy also applies to
                   any of our other websites that link to this Policy. This
                   Policy does not apply to websites that link to different
                   statements.
@@ -57,7 +57,7 @@ export default function PrivacyPolicy() {
                   that allows you to broadcast a transaction to the blockchain
                   network. Once broadcast to the blockchain network, we cannot
                   control how others may use your personal information. Please
-                  think of your blockchain domain as a “Public Profile" much
+                  think of your blockchain domain as a “Public Profile&quot; much
                   like any other social account and realize that others will
                   have access to the information that you direct us to publish.
                   Specifically, if you post information about yourself in our
@@ -151,7 +151,7 @@ export default function PrivacyPolicy() {
                 </h6>
                 <p>
                   We may share UD.me email addresses with third party
-                  decentralized applications (“DAPPs") for the purposes of
+                  decentralized applications (“DAPPs&quot;) for the purposes of
                   improving your user experience. To the extent your UD.me email
                   address contains personal information, this personal
                   information may be shared with the DAPP who will be a separate
@@ -168,7 +168,7 @@ export default function PrivacyPolicy() {
                   INFORMATION CHOICES AND CHANGES
                 </h6>
                 <p>
-                  Our marketing emails tell you how to “opt-out." If you opt
+                  Our marketing emails tell you how to “opt-out.&quot; If you opt
                   out, we may still send you non-marketing emails. Non-marketing
                   emails include emails about your accounts and our business
                   dealings with you. You may send requests about personal
@@ -190,8 +190,8 @@ export default function PrivacyPolicy() {
                   allow us to know whether you have accessed our e-mail and
                   performed certain functions with it. You may also be able to
                   limit interest-based advertising through the settings on your
-                  mobile device by selecting “limit ad tracking" (iOS) or
-                  “opt-out of interest-based ads" (Android). If you remove or
+                  mobile device by selecting “limit ad tracking&quot; (iOS) or
+                  “opt-out of interest-based ads&quot; (Android). If you remove or
                   reject our cookies, it could affect how our Site works for
                   you.
                 </p>
@@ -203,13 +203,13 @@ export default function PrivacyPolicy() {
                   links to third-party websites or services linked to or form
                   the Services, including the information or content contained
                   within them. Your browsing and interaction on any other
-                  website or service are subject to the applicable third party's
+                  website or service are subject to the applicable third party&apos;s
                   rules and policies, not ours. If you are using a third-party
                   website or service, you do so at your own risk. We encourage
                   you to review the privacy policies of any site or service
                   before providing any personal information.
                 </p>
-                <h6 className="fw-semibold mt-5 mb-3">CHILDREN'S PRIVACY</h6>
+                <h6 className="fw-semibold mt-5 mb-3">CHILDREN&apos;S PRIVACY</h6>
                 <p>
                   Our Services are not intended for children under the age of
                   16. We do not knowingly solicit or collect personal
@@ -255,7 +255,7 @@ export default function PrivacyPolicy() {
                 </h6>
                 <p>
                   If you are a California resident, please see the “California
-                  Privacy Disclosures" section below for more information.
+                  Privacy Disclosures&quot; section below for more information.
                 </p>
                 <h6 className="fw-semibold mt-5 mb-3">NEVADA PRIVACY RIGHTS</h6>
                 <p>
@@ -278,11 +278,11 @@ export default function PrivacyPolicy() {
                   EUROPEAN ECONOMIC AREA, UNITED KINGDOM OR SWITZERLAND
                 </h6>
                 <p>
-                  If you are located in the European Economic Area (“EEA"), the
+                  If you are located in the European Economic Area (“EEA&quot;), the
                   United Kingdom or Switzerland, or otherwise engage with
-                  Unstoppable Domain's European operations, please see the
+                  Unstoppable Domain&apos;s European operations, please see the
                   “Privacy Disclosures for the European Economic Area, United
-                  Kingdom and Switzerland" for additional European-specific
+                  Kingdom and Switzerland&quot; for additional European-specific
                   privacy disclosures, including what constitutes your personal
                   information, the lawful bases we rely on to process your
                   personal information, how we use cookies when you access our
@@ -308,9 +308,9 @@ export default function PrivacyPolicy() {
                   This section applies to you if you are a resident of the state
                   of California. California law requires us to disclose certain
                   information regarding the categories of information we
-                  collect. For purposes of this section, “personal information"
+                  collect. For purposes of this section, “personal information&quot;
                   has the meaning provided by the California Consumer Privacy
-                  Act (the “CCPA"). This section does not apply to information
+                  Act (the “CCPA&quot;). This section does not apply to information
                   relating to our employees, contractors, applicants, and other
                   personnel.
                 </p>
@@ -448,9 +448,9 @@ export default function PrivacyPolicy() {
                     </tr>
                   </tbody>
                 </table>
-                <h6 className="fw-semibold mt-5 mb-3">* Note about "Sales":</h6>
+                <h6 className="fw-semibold mt-5 mb-3">* Note about &quot;Sales&quot;:</h6>
                 <p>
-                  We do not “sell" personal information as most people think of
+                  We do not “sell&quot; personal information as most people think of
                   that term. However, we do utilize third-party providers to
                   engage in online analytics and advertising involving the
                   collection of personal information, including Identifiers,
@@ -471,7 +471,7 @@ export default function PrivacyPolicy() {
                 </p>
                 <p>
                   {" "}
-                  To the extent that these practices qualify as “sales" under
+                  To the extent that these practices qualify as “sales&quot; under
                   the CCPA, you may have the right to opt out as described in
                   the Your Privacy Rights section below.
                 </p>
@@ -631,7 +631,7 @@ export default function PrivacyPolicy() {
                   authorized agent (as that term is defined by the CCPA) to
                   submit requests on your behalf through the designated methods
                   set forth in these Disclosures where we can verify the
-                  authorized agent's authority to act on your behalf by:
+                  authorized agent&apos;s authority to act on your behalf by:
                 </p>
                 <ol className="ol1">
                   <li>For requests to know or delete personal information:</li>
@@ -660,7 +660,7 @@ export default function PrivacyPolicy() {
                     </ol>
                   </ol>
                   <li>
-                    For requests to opt-out of personal information “sales":
+                    For requests to opt-out of personal information “sales&quot;:
                     receiving a signed permission demonstrating your authorized
                     agent has been authorized by you to act on your behalf.{" "}
                   </li>
@@ -690,17 +690,17 @@ export default function PrivacyPolicy() {
                 </p>
                 <p>
                   {" "}
-                  To the extent that these practices qualify as “sales" under
+                  To the extent that these practices qualify as “sales&quot; under
                   the CCPA, you may have the right to opt out as described
                   above. Please see Information Choices and Changes section of
                   our Privacy Policy for more information about the choices and
                   opt-out options you may have in relation to those practices.
                 </p>
                 <p className="mt-4 fw-semibold">
-                  California's “Shine the Light" Law
+                  California&apos;s “Shine the Light&quot; Law
                 </p>
                 <p>
-                  California's “Shine the Light" law (Civil Code Section
+                  California&apos;s “Shine the Light&quot; law (Civil Code Section
                   §1798.83) provides certain rights to California residents that
                   have an established business relationship with us with regard
                   to the disclosure of certain types of personal information to
@@ -715,7 +715,7 @@ export default function PrivacyPolicy() {
                 <p>
                   We will update these Disclosures from time to time. When we
                   make changes to these Disclosures, we will change the “Last
-                  Modified" date. If we make material changes to these
+                  Modified&quot; date. If we make material changes to these
                   Disclosures, we will notify you by prominent posting at the
                   beginning of our Privacy Policy.{" "}
                 </p>
@@ -727,8 +727,8 @@ export default function PrivacyPolicy() {
                   We are located in the United States. However, if you are an
                   EEA resident, you have additional rights under the EU General
                   Data Protection Regulation (GDPR), and DomainSales.Store Inc.
-                  is a “Controller" of your personal information thereunder, and
-                  you are a “Data Subject". When we use the term “personal data"
+                  is a “Controller&quot; of your personal information thereunder, and
+                  you are a “Data Subject&quot;. When we use the term “personal data&quot;
                   in this section, we mean information relating to an identified
                   or identifiable natural person.
                 </p>
@@ -736,14 +736,14 @@ export default function PrivacyPolicy() {
                   <li>
                     <p>
                       PERSONAL DATA WE COLLECT FROM YOU WHEN YOU USE
-                      DOMAINSALES.STORE'S EUROPEAN SERVICES{" "}
+                      DOMAINSALES.STORE&apos;S EUROPEAN SERVICES{" "}
                     </p>
                     <p>
                       {" "}
                       We collect the categories of personal data that you
                       voluntarily submit directly to us when you use the
                       European Services, as set forth in our Privacy Policy
-                      under the section entitled “What We Collect." The table at
+                      under the section entitled “What We Collect.&quot; The table at
                       Annex 1 sets out in detail the categories of personal data
                       we collect about you and how we use that information when
                       you use the European Services, as well as the legal basis
@@ -843,7 +843,7 @@ export default function PrivacyPolicy() {
                         necessary to fulfil the legal obligation.
                       </li>
                       <li>
-                        Legal Claim. We may need to apply a "legal hold" that
+                        Legal Claim. We may need to apply a &quot;legal hold&quot; that
                         retains information beyond our typical retention period
                         where we face threat of legal claim. In that case, we
                         will retain the information until the hold is removed,
@@ -1042,7 +1042,7 @@ export default function PrivacyPolicy() {
                         information about how to contact your local data
                         protection authority is available here. If you are based
                         in the UK or Switzerland, your local data protection
-                        authorities are the UK Information Commissioner's Office
+                        authorities are the UK Information Commissioner&apos;s Office
                         ({" "}
                         <a
                           href="https://ico.org.uk/global/contact-us/"
@@ -1080,7 +1080,7 @@ export default function PrivacyPolicy() {
                     <p>
                       Our European Services uses cookies and similar
                       technologies such as pixels and Local Storage Objects
-                      (LSOs) like HTML5 (together "cookies") to distinguish you
+                      (LSOs) like HTML5 (together &quot;cookies&quot;) to distinguish you
                       from other users of our European Services. This helps us
                       to provide you with a good experience when you browse our
                       European Services and also allows us to monitor and
@@ -1093,7 +1093,7 @@ export default function PrivacyPolicy() {
                       of our European Services experience by saving your
                       information such as user ID and other preferences. A
                       cookie is a small data file that we transfer to your
-                      computer's hard disk for record-keeping purposes.{" "}
+                      computer&apos;s hard disk for record-keeping purposes.{" "}
                     </p>
                     <p>We use the following types of cookies:</p>
                     <ol className="l-alpha">
@@ -1151,10 +1151,10 @@ export default function PrivacyPolicy() {
                       delete or block all cookies. Please note that if you
                       choose to refuse all cookies you may not be able to use
                       the full functionality of our European Services. These
-                      settings will typically be found in the "options" or
-                      "preferences" menu of your browser. In order to understand
+                      settings will typically be found in the &quot;options&quot; or
+                      &quot;preferences&quot; menu of your browser. In order to understand
                       these settings, the following links may be helpful,
-                      otherwise you should use the "Help" option in your browser
+                      otherwise you should use the &quot;Help&quot; option in your browser
                       for more details.{" "}
                     </p>
                     <p>
@@ -1207,8 +1207,8 @@ export default function PrivacyPolicy() {
                       pixels by disabling certain external images in emails. You
                       can do this through the settings on your email client -
                       these generally give you the option of choosing whether
-                      emails will display “remote images", “remote content" or
-                      “images" by default. <br /> Some browsers also give you
+                      emails will display “remote images&quot;, “remote content&quot; or
+                      “images&quot; by default. <br /> Some browsers also give you
                       the option of downloading and installing extensions that
                       block pixels and other tracking technologies.{" "}
                     </p>
@@ -1342,7 +1342,7 @@ export default function PrivacyPolicy() {
                         full name, email, and password. If you are a teacher, we
                         may also ask for your gender, age, email address,
                         languages spoken, location, phone number, general
-                        background as part of the “About You" section, and any
+                        background as part of the “About You&quot; section, and any
                         web presence URL (e.g. Facebook handle or LinkedIn
                         URL).{" "}
                       </div>
@@ -1434,7 +1434,7 @@ export default function PrivacyPolicy() {
                       </div>
                       <div className="p-3 b-1">
                         {" "}
-                        The processing is necessary for our and third partiers'
+                        The processing is necessary for our and third partiers&apos;
                         legitimate interests, namely the detection and
                         prevention of fraud and financial crime.{" "}
                       </div>
@@ -1585,7 +1585,7 @@ export default function PrivacyPolicy() {
                         network, we may receive information from the social
                         network such as your name, profile information, and any
                         other information you permit the social network to share
-                        with third parties. We use single sign-on ("SSO") to
+                        with third parties. We use single sign-on (&quot;SSO&quot;) to
                         allow a user to authenticate their account using one set
                         of login information. The data we receive is dependent
                         on your privacy settings with the social network.{" "}
@@ -1676,7 +1676,7 @@ export default function PrivacyPolicy() {
                         The processing is necessary for our legitimate interest,
                         namely ensuring the user receives the correct marketing
                         and other communications, and that this is displayed in
-                        accordance with the user's preferences.{" "}
+                        accordance with the user&apos;s preferences.{" "}
                       </div>
                       <div className="p-3 b-1">
                         {" "}
@@ -1728,7 +1728,7 @@ export default function PrivacyPolicy() {
                         full name, email, and password. If you are a teacher, we
                         may also ask for your gender, age, email address,
                         languages spoken, location, phone number, general
-                        background as part of the “About You" section, and any
+                        background as part of the “About You&quot; section, and any
                         web presence URL (e.g. Facebook handle or LinkedIn
                         URL).{" "}
                       </div>
@@ -1759,7 +1759,7 @@ export default function PrivacyPolicy() {
                         network, we may receive information from the social
                         network such as your name, profile information, and any
                         other information you permit the social network to share
-                        with third parties. We use single sign-on ("SSO") to
+                        with third parties. We use single sign-on (&quot;SSO&quot;) to
                         allow a user to authenticate their account using one set
                         of login information. The data we receive is dependent
                         on your privacy settings with the social network.{" "}
@@ -1916,7 +1916,7 @@ export default function PrivacyPolicy() {
                       </div>
                       <div className="border-1 p-2">
                         {" "}
-                        The processing is necessary for our and third partiers'
+                        The processing is necessary for our and third partiers&apos;
                         legitimate interests, namely the detection and
                         prevention of fraud and financial crime.{" "}
                       </div>
@@ -1959,7 +1959,7 @@ export default function PrivacyPolicy() {
                         The processing is necessary for our legitimate interest,
                         namely ensuring the user receives the correct marketing
                         and other communications, and that this is displayed in
-                        accordance with the user's preferences.{" "}
+                        accordance with the user&apos;s preferences.{" "}
                       </div>
                       <div className="border-1 p-2">
                         {" "}
@@ -2203,7 +2203,7 @@ export default function PrivacyPolicy() {
                         Approximate location information. Other than the
                         information you choose to provide to us, we do not
                         collect information about your precise location. Your
-                        device's IP address may however help us determine an
+                        device&apos;s IP address may however help us determine an
                         approximate location.{" "}
                       </div>
                     </div>
@@ -2336,7 +2336,7 @@ export default function PrivacyPolicy() {
                         about the type of device, unique device identifying
                         numbers, operating systems, browsers and applications
                         connected to the European Services through the device,
-                        your mobile network, your IP address and your device's
+                        your mobile network, your IP address and your device&apos;s
                         telephone number (if it has one).{" "}
                       </div>
                     </div>
@@ -2386,7 +2386,7 @@ export default function PrivacyPolicy() {
                         Approximate location information. Other than the
                         information you choose to provide to us, we do not
                         collect information about your precise location. Your
-                        device's IP address may however help us determine an
+                        device&apos;s IP address may however help us determine an
                         approximate location.
                       </div>
                       <div className="border-1 p-2">
@@ -2411,7 +2411,7 @@ export default function PrivacyPolicy() {
                         about the type of device, unique device identifying
                         numbers, operating systems, browsers and applications
                         connected to the European Services through the device,
-                        your mobile network, your IP address and your device's
+                        your mobile network, your IP address and your device&apos;s
                         telephone number (if it has one).
                       </div>
                     </div>

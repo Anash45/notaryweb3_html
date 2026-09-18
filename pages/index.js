@@ -280,7 +280,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="my-3 play-line" />
-                  <p className="fw-semibold text-center">Most common FAQ's</p>
+                  <p className="fw-semibold text-center">Most common FAQ&apos;s</p>
                 </div>
               </div>
             </div>

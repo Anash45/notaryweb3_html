@@ -1,8 +1,84 @@
+import { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Layout from "../components/Layout";
 
+const FILTERS = [
+  { key: "*", label: "General" },
+  { key: "services", label: "Services" },
+  { key: "payments", label: "Payments" },
+  { key: "refund", label: "Refund" },
+  { key: "contact", label: "Contact" },
+];
+
+const FAQ_ITEMS = [
+  {
+    id: 1,
+    category: "services",
+    question: "What services does NotaryWeb3 offer?",
+    answer:
+      "NotaryWeb3 lets you register blockchain-based .notary and .notarypublic Web3 domains, link them to your crypto wallet, and attach a verified notary identity to your online presence — all from one dashboard.",
+  },
+  {
+    id: 2,
+    category: "services",
+    question: "How is a Web3 domain different from a traditional domain?",
+    answer:
+      "A Web3 domain lives on the blockchain and is owned directly through your wallet instead of being rented from a registrar each year. That means no renewal fees, and your domain can resolve wallet addresses as well as websites.",
+  },
+  {
+    id: 3,
+    category: "services",
+    question: "Can I use my Web3 domain for a website or email?",
+    answer:
+      "Yes. You can point your domain to an IPFS-hosted website and use it as a human-readable address for crypto-native email and payments, in addition to your existing domain and inbox.",
+  },
+  {
+    id: 4,
+    category: "contact",
+    question: "How do I contact support?",
+    answer:
+      "Our team is reachable from the Contact page, by email at support@notaryweb3.com, or via the Email Support link at the top of every page. We typically respond within one business day.",
+  },
+  {
+    id: 5,
+    category: "payments",
+    question: "What payment methods do you accept?",
+    answer:
+      "We accept major credit and debit cards through Stripe, as well as payment in ETH and other major cryptocurrencies directly from your connected wallet.",
+  },
+  {
+    id: 6,
+    category: "payments",
+    question: "Are there any renewal or gas fees?",
+    answer:
+      "No. Domains are yours for good once minted, with no yearly renewal fees and no extra gas or minting fees on top of the listed price — the price you see at checkout is the price you pay.",
+  },
+  {
+    id: 7,
+    category: "refund",
+    question: "What is your refund policy?",
+    answer:
+      "Because domains are minted on-chain, purchases are final once minting completes. If minting fails or a domain is not delivered to your wallet, contact support within 14 days for a full refund.",
+  },
+  {
+    id: 8,
+    category: "services",
+    question: "Do I need technical knowledge to buy a domain?",
+    answer:
+      "Not at all. Search for your name, connect your wallet, and check out — the same way you would on any familiar domain marketplace. No prior blockchain experience required.",
+  },
+];
+
 export default function Faq() {
+  const [activeFilter, setActiveFilter] = useState("*");
+  const [openId, setOpenId] = useState(null);
+
+  const visibleItems =
+    activeFilter === "*"
+      ? FAQ_ITEMS
+      : FAQ_ITEMS.filter((item) => item.category === activeFilter);
+
   return (
     <>
       <Head>
@@ -16,335 +92,99 @@ export default function Faq() {
                 <h1 className="sec-title"> FAQ </h1>
                 <p className="text-center">
                   {" "}
-                  Frequently Asked Questions - we've got you covered! <br />
+                  Frequently Asked Questions - we&apos;ve got you covered!{" "}
+                  <br />
                   Everything you need to know, all in one place.{" "}
                 </p>
               </div>
               <div className="row no-gutters">
                 <div className="filtering col-sm-12 text-center mb-5">
                   <div className="filtering-inner d-inline-block py-2 px-md-5 px-2">
-                    <span data-filter="*" className="my-md-2 my-1 active pl-0">
-                      General
-                    </span>
-                    <span data-filter=".services" className="my-md-2 my-1 ">
-                      Services
-                    </span>
-                    <span data-filter=".payments" className="my-md-2 my-1 ">
-                      Payments
-                    </span>
-                    <span data-filter=".refund" className="my-md-2 my-1 ">
-                      Refund
-                    </span>
-                    <span data-filter=".contact" className="my-md-2 my-1 pr-0">
-                      Contact
-                    </span>
+                    {FILTERS.map((filter, idx) => (
+                      <span
+                        key={filter.key}
+                        role="button"
+                        tabIndex={0}
+                        data-filter={filter.key}
+                        className={`my-md-2 my-1 ${
+                          activeFilter === filter.key ? "active" : ""
+                        } ${idx === 0 ? "pl-0" : ""} ${
+                          idx === FILTERS.length - 1 ? "pr-0" : ""
+                        }`}
+                        onClick={() => setActiveFilter(filter.key)}
+                        onKeyDown={(e) => {
+                          if (e.key === "Enter" || e.key === " ") {
+                            setActiveFilter(filter.key);
+                          }
+                        }}
+                      >
+                        {filter.label}
+                      </span>
+                    ))}
                   </div>
                 </div>
                 <div className="col-12 text-center w-100">
                   <div className="grid form-row gallery text-center">
-                    <div className="col-lg-4 col-sm-6 mb-2 grid-item services">
-                      <div className="card px-2">
-                        <div className="px-0 card-header" id="heading1">
-                          <h5 className="mb-0">
-                            <div
-                              className="btn accordion-btn d-flex w-100 justify-content-center align-items-center"
-                              data-toggle="collapse"
-                              data-target="#collapse1"
-                              aria-expanded="false"
-                              aria-controls="collapse1"
-                            >
-                              <span className="mx-auto">
-                                <span>1.</span> what services does TanahAir
-                                Offer?
-                              </span>
-                              <i className="accordion-icon fa fa-chevron-down ml-2" />
+                    {visibleItems.map((item, idx) => (
+                      <div
+                        key={item.id}
+                        className={`col-lg-4 col-sm-6 mb-2 grid-item ${item.category}`}
+                      >
+                        <div className="card px-2">
+                          <div
+                            className="px-0 card-header"
+                            id={`heading${item.id}`}
+                          >
+                            <h5 className="mb-0">
+                              <div
+                                className="btn accordion-btn d-flex w-100 justify-content-center align-items-center"
+                                role="button"
+                                tabIndex={0}
+                                aria-expanded={openId === item.id}
+                                aria-controls={`collapse${item.id}`}
+                                onClick={() =>
+                                  setOpenId(openId === item.id ? null : item.id)
+                                }
+                                onKeyDown={(e) => {
+                                  if (e.key === "Enter" || e.key === " ") {
+                                    setOpenId(
+                                      openId === item.id ? null : item.id,
+                                    );
+                                  }
+                                }}
+                              >
+                                <span className="mx-auto">
+                                  <span>{idx + 1}.</span> {item.question}
+                                </span>
+                                <i
+                                  className={`accordion-icon fa ml-2 ${
+                                    openId === item.id
+                                      ? "fa-chevron-up"
+                                      : "fa-chevron-down"
+                                  }`}
+                                />
+                              </div>
+                            </h5>
+                          </div>
+                          <div
+                            id={`collapse${item.id}`}
+                            className={`collapse ${openId === item.id ? "show" : ""}`}
+                            aria-labelledby={`heading${item.id}`}
+                          >
+                            <div className="px-3 card-body">
+                              <p className="m-0 text-left">{item.answer}</p>
                             </div>
-                          </h5>
-                        </div>
-                        <div
-                          id="collapse1"
-                          className="collapse"
-                          aria-labelledby="heading1"
-                          data-parent="#myAccordion"
-                        >
-                          <div className="px-3 card-body">
-                            <p className="m-0 text-left">
-                              We will report each section that has been done,
-                              such as Flow, wireframe for each category, then
-                              full wireframe until it becomes a complete design
-                              and we will report the development of the website
-                              approximately every 1 week.
-                            </p>
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6 mb-2 grid-item services">
-                      <div className="card px-2">
-                        <div className="px-0 card-header" id="heading2">
-                          <h5 className="mb-0">
-                            <div
-                              className="btn accordion-btn d-flex w-100 justify-content-center align-items-center"
-                              data-toggle="collapse"
-                              data-target="#collapse2"
-                              aria-expanded="false"
-                              aria-controls="collapse2"
-                            >
-                              <span className="mx-auto">
-                                <span>1.</span> what services does TanahAir
-                                Offer?
-                              </span>
-                              <i className="accordion-icon fa fa-chevron-down ml-2" />
-                            </div>
-                          </h5>
-                        </div>
-                        <div
-                          id="collapse2"
-                          className="collapse"
-                          aria-labelledby="heading2"
-                          data-parent="#myAccordion"
-                        >
-                          <div className="px-3 card-body">
-                            <p className="m-0 text-left">
-                              We will report each section that has been done,
-                              such as Flow, wireframe for each category, then
-                              full wireframe until it becomes a complete design
-                              and we will report the development of the website
-                              approximately every 1 week.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6 mb-2 grid-item services">
-                      <div className="card px-2">
-                        <div className="px-0 card-header" id="heading3">
-                          <h5 className="mb-0">
-                            <div
-                              className="btn accordion-btn d-flex w-100 justify-content-center align-items-center"
-                              data-toggle="collapse"
-                              data-target="#collapse3"
-                              aria-expanded="false"
-                              aria-controls="collapse3"
-                            >
-                              <span className="mx-auto">
-                                <span>1.</span> what services does TanahAir
-                                Offer?
-                              </span>
-                              <i className="accordion-icon fa fa-chevron-down ml-2" />
-                            </div>
-                          </h5>
-                        </div>
-                        <div
-                          id="collapse3"
-                          className="collapse"
-                          aria-labelledby="heading3"
-                          data-parent="#myAccordion"
-                        >
-                          <div className="px-3 card-body">
-                            <p className="m-0 text-left">
-                              We will report each section that has been done,
-                              such as Flow, wireframe for each category, then
-                              full wireframe until it becomes a complete design
-                              and we will report the development of the website
-                              approximately every 1 week.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6 mb-2 grid-item contact">
-                      <div className="card px-2">
-                        <div className="px-0 card-header" id="heading4">
-                          <h5 className="mb-0">
-                            <div
-                              className="btn accordion-btn d-flex w-100 justify-content-center align-items-center"
-                              data-toggle="collapse"
-                              data-target="#collapse4"
-                              aria-expanded="false"
-                              aria-controls="collapse4"
-                            >
-                              <span className="mx-auto">
-                                <span>1.</span> what services does TanahAir
-                                Offer?
-                              </span>
-                              <i className="accordion-icon fa fa-chevron-down ml-2" />
-                            </div>
-                          </h5>
-                        </div>
-                        <div
-                          id="collapse4"
-                          className="collapse"
-                          aria-labelledby="heading4"
-                          data-parent="#myAccordion"
-                        >
-                          <div className="px-3 card-body">
-                            <p className="m-0 text-left">
-                              We will report each section that has been done,
-                              such as Flow, wireframe for each category, then
-                              full wireframe until it becomes a complete design
-                              and we will report the development of the website
-                              approximately every 1 week.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6 mb-2 grid-item payments">
-                      <div className="card px-2">
-                        <div className="px-0 card-header" id="heading5">
-                          <h5 className="mb-0">
-                            <div
-                              className="btn accordion-btn d-flex w-100 justify-content-center align-items-center"
-                              data-toggle="collapse"
-                              data-target="#collapse5"
-                              aria-expanded="false"
-                              aria-controls="collapse5"
-                            >
-                              <span className="mx-auto">
-                                <span>1.</span> what services does TanahAir
-                                Offer?
-                              </span>
-                              <i className="accordion-icon fa fa-chevron-down ml-2" />
-                            </div>
-                          </h5>
-                        </div>
-                        <div
-                          id="collapse5"
-                          className="collapse"
-                          aria-labelledby="heading5"
-                          data-parent="#myAccordion"
-                        >
-                          <div className="px-3 card-body">
-                            <p className="m-0 text-left">
-                              We will report each section that has been done,
-                              such as Flow, wireframe for each category, then
-                              full wireframe until it becomes a complete design
-                              and we will report the development of the website
-                              approximately every 1 week.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6 mb-2 grid-item payments">
-                      <div className="card px-2">
-                        <div className="px-0 card-header" id="heading6">
-                          <h5 className="mb-0">
-                            <div
-                              className="btn accordion-btn d-flex w-100 justify-content-center align-items-center"
-                              data-toggle="collapse"
-                              data-target="#collapse6"
-                              aria-expanded="false"
-                              aria-controls="collapse6"
-                            >
-                              <span className="mx-auto">
-                                <span>1.</span> what payment plans do TanahAir
-                                Offer what payment plans do TanahAir Offer ?
-                              </span>
-                              <i className="accordion-icon fa fa-chevron-down ml-2" />
-                            </div>
-                          </h5>
-                        </div>
-                        <div
-                          id="collapse6"
-                          className="collapse"
-                          aria-labelledby="heading6"
-                          data-parent="#myAccordion"
-                        >
-                          <div className="px-3 card-body">
-                            <p className="m-0 text-left">
-                              We will report each section that has been done,
-                              such as Flow, wireframe for each category, then
-                              full wireframe until it becomes a complete design
-                              and we will report the development of the website
-                              approximately every 1 week.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6 mb-2 grid-item refund">
-                      <div className="card px-2">
-                        <div className="px-0 card-header" id="heading7">
-                          <h5 className="mb-0">
-                            <div
-                              className="btn accordion-btn d-flex w-100 justify-content-center align-items-center"
-                              data-toggle="collapse"
-                              data-target="#collapse7"
-                              aria-expanded="false"
-                              aria-controls="collapse7"
-                            >
-                              <span className="mx-auto">
-                                <span>1.</span> what services does TanahAir
-                                Offer?
-                              </span>
-                              <i className="accordion-icon fa fa-chevron-down ml-2" />
-                            </div>
-                          </h5>
-                        </div>
-                        <div
-                          id="collapse7"
-                          className="collapse"
-                          aria-labelledby="heading7"
-                          data-parent="#myAccordion"
-                        >
-                          <div className="px-3 card-body">
-                            <p className="m-0 text-left">
-                              We will report each section that has been done,
-                              such as Flow, wireframe for each category, then
-                              full wireframe until it becomes a complete design
-                              and we will report the development of the website
-                              approximately every 1 week.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6 mb-2 grid-item services">
-                      <div className="card px-2">
-                        <div className="px-0 card-header" id="heading8">
-                          <h5 className="mb-0">
-                            <div
-                              className="btn accordion-btn d-flex w-100 justify-content-center align-items-center"
-                              data-toggle="collapse"
-                              data-target="#collapse8"
-                              aria-expanded="false"
-                              aria-controls="collapse8"
-                            >
-                              <span className="mx-auto">
-                                <span>1.</span> what services does TanahAir
-                                Offer?
-                              </span>
-                              <i className="accordion-icon fa fa-chevron-down ml-2" />
-                            </div>
-                          </h5>
-                        </div>
-                        <div
-                          id="collapse8"
-                          className="collapse"
-                          aria-labelledby="heading8"
-                          data-parent="#myAccordion"
-                        >
-                          <div className="px-3 card-body">
-                            <p className="m-0 text-left">
-                              We will report each section that has been done,
-                              such as Flow, wireframe for each category, then
-                              full wireframe until it becomes a complete design
-                              and we will report the development of the website
-                              approximately every 1 week.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    ))}
                   </div>
                 </div>
                 <div className="pt-5 my-0 mx-auto col-lg-4 col-md-6 col-sm-8">
                   <p className="text-center">
                     {" "}
-                    If you can't find the answer to your question, please don't
-                    hesitate to{" "}
+                    If you can&apos;t find the answer to your question, please
+                    don&apos;t hesitate to{" "}
                     <Link
                       href="/contact"
                       className="link gold fw-semibold text-underline"
